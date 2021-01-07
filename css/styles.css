@@ -1,0 +1,148 @@
+body{
+	margin: 0;
+}
+
+nav, section{
+	width: 100%;
+	float: left;
+	padding: 30px 0px;
+}
+
+ul{
+	float: right;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #1c2b45;
+}
+
+ul li{
+	margin-left: 40px;
+	list-style: none;
+	display: inline-block;
+
+}
+
+section{
+	margin: 40px 0px;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.half-width{
+	width: 48%;
+	float: left;
+	padding: 10px;
+}
+.half-width img{
+	width: 100%;
+}
+
+.section-heading{
+	color: #1c2b45;
+}
+
+.introduction{
+	font-size: 4rem !important;
+}
+
+.section-heading{
+	font-size: 3rem;
+}
+
+.section-heading span{
+	color: tomato;
+}
+
+.btn{
+	background:  linear-gradient(180deg, tomato, orange);
+	border: none;
+	padding: 10px 30px;
+	border-radius: 5px;
+	color: white;
+}
+
+
+#work .section-heading{
+	text-align:center;
+}
+
+#work{
+	padding: 80px 0px;
+	background: #ededed;
+}
+
+.work-container{
+	text-align: center;
+}
+
+.work-item{
+	padding: 20px;
+	width: 25%;
+	display: inline-block;
+	background: white;
+	margin: 0px 15px;
+	border-radius: 10px;
+}
+
+.work-title, .work-desc{
+	text-align: left;
+}
+.work-img img{
+	width: 100%;
+}
+
+.box{
+	padding: 7.3rem 1rem;
+	margin: 2rem;
+	background: url('../img/work.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.box h2{
+	float: left;
+	font-size: 2.5rem;
+	color: white;
+	top: 28%;
+	left: 5%;
+	position: absolute;
+}
+
+.box button{
+	right: 5%;
+	top: 47%;
+	position: absolute;
+	display: block;
+	margin: auto;
+	float: right;
+}
+
+footer{
+	text-align: center;
+	float: left;
+	width: 100%;
+	margin: 50px 0px;
+}
+
+footer p{
+	font-size: 20px;
+}	
+
+footer h3{
+	color: #1c2b45;
+	font-size: 30px;
+}
+
+footer img{
+	height: 35px;
+	width: 35px;
+	margin: 10px;
+}
