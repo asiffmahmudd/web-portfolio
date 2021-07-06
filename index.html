@@ -3,10 +3,15 @@
 	<head>
 		<title>My Portfolio</title>
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<!-- <link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+		/> -->
 	</head>
 	<body>
 		<div class="container">
-			<nav>
+			<nav class="">
 				<ul>
 					<li><a href="#about">About</a></li>
 					<li><a href="#blog">Blog</a></li>
@@ -18,32 +23,40 @@
 			
 
 		<section id="about">
-			<div class="container">
+			<div class="container ">
 				<div class="half-width">
-					<h1 class="section-heading introduction">HELLO I'M <span><br>ASIF MAHMUD</span></h1>
-					<p>A fullstack allaround designer that placerat in massa consecteur</p>
-					<button class="btn">Hire Me</button>
+					<h1 class="section-heading introduction wow bounceInUp animated wow slideInLeft">HELLO I'M <span><br>ASIF MAHMUD</span></h1>
+					<div class="wow slideInRight">
+						<p>A fullstack web developer</p>
+						<button class="btn">Hire Me</button>
+					</div>
+					
 				</div>
-				<div class="half-width">
+				<div class="half-width wow slideInRight">
 					<img src="img/pr.jpeg">
 				</div>
 			</div>
 		</section>	
 
-		<section>
+		<section class="wow rotateIn">
 			<div class="container">
 				<div class="half-width">
 					<img src="img/js.jpg">
 				</div>
 				<div class="half-width">
 					<h1 class="section-heading">ABOUT</h1>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,</p>
+					<p>I am Asif Mahmud who aims to be able to find an exciting and 
+					challenging entry level position in the Software Development industry,
+					a company who will continuously motivate and drive me to do my best 
+					and improve on my skills and abilities in order to be able to assist the
+					company in achieving its company mission and goals.
+					</p>
 					<button class="btn">Download CV</button>
 				</div>
 			</div>
 		</section>	
 
-		<section id="blog">
+		<section id="blog" class="wow bounceIn">
 			<div class="container">
 				<div class="half-width">
 					<h1 class="section-heading introduction">Blog</h1>
@@ -56,7 +69,7 @@
 			</div>
 		</section>	
 
-		<section id="work">
+		<section id="work" class="wow bounceOut">
 			<div class="container">
 				<h1 class="section-heading"><span>LATEST</span> WORKING PROJECT</h1>
 				<div class="work-container">
@@ -65,10 +78,10 @@
 							<img src="img/image 4.png">
 						</div>
 						<div class="work-title">
-							<h3>Power-x-gym (gym-website)</h3>
+							<h3>Kothay Ki Pabo</h3>
 						</div>
 						<div class="work-desc">
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+							<p>A onestop platform solution for users to search and compare the same product from different vendors</p>
 						</div>
 					</div>
 					<div class="work-item">
@@ -76,10 +89,10 @@
 							<img src="img/image 5.png">
 						</div>
 						<div class="work-title">
-							<h3>Power-x-gym (gym-website)</h3>
+							<h3>Hospital Managemetn</h3>
 						</div>
 						<div class="work-desc">
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+							<p>A hospital management system</p>
 						</div>
 					</div>
 					<div class="work-item">
@@ -87,17 +100,17 @@
 							<img src="img/image 8.png">
 						</div>
 						<div class="work-title">
-							<h3>Power-x-gym (gym-website)</h3>
+							<h3>Covid-19 Test</h3>
 						</div>
 						<div class="work-desc">
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+							<p>The users can give input about their symtomps and get the result of Covid-19 (Logics are for project purpose)</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<section id="contact">
+		<section id="contact wow slideInRight">
 			<div class="container">
 				<div class="box">
 					<div>
@@ -108,7 +121,7 @@
 			</div>
 		</section>
 
-		<footer>
+		<footer class="wow slideInLeft">
 			<div class="container">
 				<p>STAY CONNECTED</p>
 				<h3>asifmahmud3472@gmail.com</h3>
@@ -117,5 +130,10 @@
 				<img src="img/basket.png">
 			</div>
 		</footer>
+		
+		<script type="text/javascript" src="js/wow.min.js"></script>
+	    <script>
+	      new WOW().init();
+	    </script>
 	</body>
 </html>
